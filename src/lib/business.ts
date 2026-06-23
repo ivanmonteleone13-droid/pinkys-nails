@@ -17,6 +17,7 @@ export const business = {
   bookingUrl: "https://www.bokadirekt.se/places/pinkys-nails-58041",
   bookingLabel: "Boka på Bokadirekt",
   websiteUrl: null as string | null,
+  logoImage: null as string | null,
   heroImage: "/images/hero.jpg",
   aboutImage: "/images/gallery-2.jpg",
   facebookUrl: null as string | null,
@@ -69,7 +70,7 @@ export const business = {
       icon: "💅",
       description: "Nagelförlängning i akryl — skräddarsydd design efter dina önskemål.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 500,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -78,7 +79,7 @@ export const business = {
       icon: "✨",
       description: "Gellack-manikyr med valfri färg — hållbart resultat.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 380,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -87,7 +88,7 @@ export const business = {
       icon: "🦶",
       description: "Klassisk fransk manikyr för en elegant look.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 420,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -96,7 +97,7 @@ export const business = {
       icon: "💎",
       description: "Spa-pedikyr för fötter och naglar.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 500,
       note: "Kontakta oss för aktuella priser.",
     },
     {
